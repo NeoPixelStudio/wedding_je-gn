@@ -561,10 +561,10 @@ a {
 
 .panel__item-img {
   position: relative;
-  width: 30vw;
-  max-width: 250px;
-  height: 43.2vw;
-  max-height: 360px;
+  width: 30vw !important;
+  max-width: 250px !important;
+  height: 43.2vw !important;
+  max-height: 360px !important;
   display: block;
   transition: height 1s ease-in, opacity 1s ease-in;
   border-radius: 15px;
@@ -675,9 +675,10 @@ a {
   will-change: transform, opacity;
 }
 
-.white {
+.blanco {
   margin: 0 0.25rem;
   padding: 0.25rem;
+  background-color: white;
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
@@ -706,7 +707,7 @@ a {
   border-style: solid;
   border-width: 1px;
   border-color: #4a4a4a;
-  color: white;
+  color: black;
   background-color: beige;
   line-height: 2;
   min-width: 75px;
